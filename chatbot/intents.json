@@ -1,0 +1,274 @@
+{
+ "intents": [
+  {
+   "tag": "greeting",
+   "patterns": [
+    "Hi",
+    "Hello",
+    "Hey"
+   ],
+   "responses": [
+    "Hello",
+    "Hi",
+    "How are you?"
+   ]
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye"
+   ],
+   "responses": [
+    "See you!",
+    "Have a nice day!",
+    "Bye"
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thanks",
+    "Thank you",
+    "Awesome, thanks",
+    "cool",
+    "awesome"
+   ],
+   "responses": [
+    "My pleasure",
+    "No problem",
+    "Anytime"
+   ]
+  },
+  {
+   "tag": "occupation",
+   "patterns": [
+    "What do you do?",
+    "Why are you here?"
+   ],
+   "responses": [
+    "I can answer your questions about Stained Glass."
+   ]
+  },
+  {
+   "tag": "name",
+   "patterns": [
+    "Whats you name?",
+    "Who are you",
+    "Do you have a name?"
+   ],
+   "responses": [
+    "My name is Annabot"
+   ]
+  },
+  {
+   "tag": "solder",
+   "patterns": [
+    "50/50",
+    "60/40",
+    "What solder should I use?"
+   ],
+   "responses": [
+    "I like Canfield 60/40 solder",
+    "Canfield is a good solder. I usually use 60/40."
+   ]
+  },
+  {
+   "tag": "measurements",
+   "patterns": [
+    "measurements",
+    "fitting size",
+    "stained glass size to fit into window",
+    "window"
+   ],
+   "responses": [
+    "Make glass 1/8 inch on all sides smaller to fit into a window",
+    "Fitting size should be 1/8 inch smaller than window frame"
+   ]
+  },
+  {
+   "tag": "decorative",
+   "patterns": [
+    "decorative soldering",
+    "solder dots",
+    "wavy lines",
+    "diamonds",
+    "pretty soldering"
+   ],
+   "responses": [
+    "Fun! Put painters tape over a cardboard strip. Punch holes or waves in painters tape. Flux holes then solder.  Enjoy!"
+   ]
+  },
+  {
+   "tag": "copperfoil",
+   "patterns": [
+    "copper foil",
+    "what kind of foil is best"
+   ],
+   "responses": [
+    "I use Venture or EDCO foil.",
+    "For normal glass, I use Venture 7/32 foil or EDO"
+   ]
+  },
+  {
+   "tag": "flux",
+   "patterns": [
+    "flux",
+    "what kind of flux is best"
+   ],
+   "responses": [
+    "I use Nokorode paste flux.",
+    "I really like the Nokorode paste flux. I dont care for the liquid kind at all."
+   ]
+  },
+  {
+   "tag": "paint",
+   "patterns": [
+    "paint",
+    "Can you paint on glass?"
+   ],
+   "responses": [
+    "Yes, you can paint on glass. I like Pebeo Vitrea 160.",
+    "You can on glass. I like Pebeo Vitrea. It sets up in the oven and wont come off."
+   ]
+  },
+  {
+   "tag": "foilproblems",
+   "patterns": [
+    "copper foil",
+    "copperfoil peels off",
+    "foil not sticking",
+    "My foil isn't sticking to the glass",
+    "copper foil peels off"
+   ],
+   "responses": [
+    "Warm the glass on a light box or plate warmer. This should help with sticking",
+    "Clean glass with warm soapy water and wipe edges with the rubbig alcohol. This removes all unseen oils",
+    "The age of the foil and oxidation may be causing it. Try a new roll of foil.",
+    "It could be over burnishing.  Try burnishing in one direction and not to rub too many times",
+    "Could be too much flux. try using a q-tip to apply the flux."
+   ]
+  },
+  {
+   "tag": "breaks",
+   "patterns": [
+    "My glass breaks when trying to score",
+    "glass breaks not on the score"
+   ],
+   "responses": [
+    "Warm the glass on a light box or plate warmer. This will help break the glass on the score.",
+    "Only score in once direction, from one edge to the other. Do not go back and forth."
+   ]
+  },
+  {
+   "tag": "splinters",
+   "patterns": [
+    "The glass splinters when I score",
+    "splinter"
+   ],
+   "responses": [
+    "Oil the cutter and apply a lighter pressure when scoring."
+   ]
+  },
+  {
+   "tag": "saw",
+   "patterns": [
+    "stained glass saw",
+    "taurus",
+    "cutting intricate pieces"
+   ],
+   "responses": [
+    "I use the Taurus 3 Ring Saw",
+    "For me, the Taurus 3 Ring Saw works wonders for cutting intricate pieces."
+   ]
+  },
+  {
+   "tag": "drilling",
+   "patterns": [
+    "holes in glass",
+    "holes for jewelry"
+   ],
+   "responses": [
+    "Use diamond tip drill bits. you can get them from Amazon",
+    "Use diamond tip drill bits and make sure the piece in underwater."
+   ]
+  },
+  {
+   "tag": "stainedglass",
+   "patterns": [
+    "What is stained glass?",
+    "What kinds of stained glass is there?"
+   ],
+   "responses": [
+    "Stained glass is colored glass as a material or works created from it. There are two types, lead and tiffany styles"
+   ]
+  },
+  {
+   "tag": "shopping",
+   "patterns": [
+    "Where do you get glass?",
+    "Where do you buy glass?",
+    "Places to buy supplies?"
+   ],
+   "responses": [
+    "Anything Stained Glass is a good place to get supplies",
+    "D&L Glass is a good place to buy glass in Denver.",
+    "Delphi Glass is a great place to order glass from."
+   ]
+  },
+  {
+   "tag": "supply",
+   "patterns": [
+    "What supplies do I need?",
+    "What do I need to start with?",
+    "supplies",
+    "What does a beginner need?",
+    "What should I get?",
+    "supplies",
+    "How do I start?"
+   ],
+   "responses": [
+    "At Anything Stained glass you can get a starter kit. It has everything you need.",
+    "To start, you just need a glass cutter, grozer pliers, soldering iron, solder, copper foil, flux, and a fid"
+   ]
+  },
+  {
+   "tag": "grinder",
+   "patterns": [
+    "Whats a good grinder?",
+    "grinder",
+    "Do I need a grinder?"
+   ],
+   "responses": [
+    "I like the Gryhon Studio Pro grinder.",
+    "Grinders are a must have! A good one is Gryhon Studio Pro."
+   ]
+  },
+  {
+   "tag": "circle",
+   "patterns": [
+    "How do I cut a circle?",
+    "How do I cut a curve",
+    "curve",
+    "circle"
+   ],
+   "responses": [
+    "Circle cutters are an excellent and easy way to cut a circle in glass.",
+    "First score the circle. Next make scores from the edge of the glass to the edge of the circle (in quarters). Put the glass on a towel, and use your fingers to press firmly down on the score until it breaks."
+   ]
+  },
+  {
+   "tag": "skill",
+   "patterns": [
+    "Do I need talent?",
+    "Can anyone do this?",
+    "Should I be artistic?",
+    "artistic"
+   ],
+   "responses": [
+    "Yes, you do need a little talent, patience, and an eye for color.  Plus good hand eye coordination would help."
+   ]
+  }
+ ]
+}
