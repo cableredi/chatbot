@@ -7,4 +7,4 @@ When you are first learning a hobby, you have a lot of questions. Some go to cla
 
 
 ## Built With
-Python, tkinter, sklearn, tensorflow, nltk, json, pickle
+Python 3, tkinter, sklearn, tensorflow, nltk, json, pickle
